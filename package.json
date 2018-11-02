@@ -1,0 +1,19 @@
+{
+    "name": "macos-discord-rich-presence",
+    "version": "1.0.0",
+    "description": "A workaround to get Rich Presense on Discord when using various services on MacOS.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "itunes": "./node_modules/nodemon/bin/nodemon.js ./scripts/itunes.js",
+        "youtube": "./node_modules/nodemon/bin/nodemon.js ./scripts/youtube.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "discord-rpc": "^3.0.1",
+        "node-osascript": "^2.1.0",
+        "nodemon": "^1.18.5",
+        "osascript-promise": "^1.0.0"
+    }
+}
